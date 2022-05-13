@@ -71,31 +71,31 @@ $(document).on("click", ".btnRemove", function(event)
 function validateBillForm()
 {
 	
-//empName
+//BillAccNo
 if ($("#bill_AccNo").val().trim() == "")
  {
  return "Insert bill_AccNo.";
  }
 
-// empNIC
+// BillDate
 if ($("#bill_Date").val().trim() == "")
  {
  return "Insert bill_Date.";
  } 
 
-// empBdate-------------------------------
+// BillUnitAmount-------------------------------
 if ($("#bill_UnitA").val().trim() == "")
  {
  return "Insert bill_UnitA.";
  }
 
-// empDep-------------------------------
+// BillUnitPrice-------------------------------
 if ($("#bill_Unitprice").val().trim() == "")
  {
  return "Insert bill_Unitprice.";
  }
   
- // empPhone-------------------------------
+ // BillTotal-------------------------------
 if ($("#bill_Total").val().trim() == "")
  {
  return "Insert bill_Total.";
