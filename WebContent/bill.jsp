@@ -18,7 +18,7 @@ pageEncoding="ISO-8859-1"%>
 </style>
 	<body > 
 		<div class="container"><div class="row"><div class="col-6"> <br>
-		<div style = "background-color:white; width:350px"><br><h2>&nbsp; Billing Management </h2>
+		<div style = "background-color:white; width:350px"><br><h2 style = "color:blue">&nbsp; Billing Management </h2>
 		
 			<form id="formBill" name="formBill" >
 			
