@@ -14,6 +14,8 @@ pageEncoding="ISO-8859-1"%>
 	<style>
    body {
     	background-image: url("image/Billing.jpg");
+    	background-repeat: no-repeat;
+    	background-size: cover;
 	}
 </style>
 	<body > 
@@ -22,28 +24,28 @@ pageEncoding="ISO-8859-1"%>
 		
 			<form id="formBill" name="formBill" >
 			
- 				&nbsp; Bill AccountNo : 
+ 				&nbsp;&nbsp;&nbsp; Bill AccountNo * : 
  				<input id="bill_AccNo" name="bill_AccNo" type="text" placeholder="Enter Account No"
- 				class="form-control form-control-sm" style="width:200px;margin-left:20px"> <br>
+ 				class="form-control form-control-sm" style="width:250px;margin-left:20px"> <br>
 			    
-			    &nbsp; Bill Date : 
+			    &nbsp;&nbsp;&nbsp; Bill Date * : 
  				<input id="bill_Date" name="bill_Date" type="text" placeholder="Enter Date"
- 				class="form-control form-control-sm" style="width:200px;margin-left:20px"><br> 
+ 				class="form-control form-control-sm" style="width:250px;margin-left:20px"><br> 
  				
- 				&nbsp; Bill UnitAmount : 
+ 				&nbsp;&nbsp;&nbsp; Bill UnitAmount * : 
  				<input id="bill_UnitA" name="bill_UnitA" type="text" placeholder="Enter Unit Amount"
-				class="form-control form-control-sm" style="width:200px;margin-left:20px"><br>
+				class="form-control form-control-sm" style="width:250px;margin-left:20px"><br>
  				
- 				&nbsp; Bill UnitPrice : 
+ 				&nbsp;&nbsp;&nbsp; Bill UnitPrice * : 
  				<input id="bill_Unitprice" name="bill_Unitprice" type="text" placeholder="Enter Unit Price"
- 				class="form-control form-control-sm" style="width:200px;margin-left:20px"><br> 
+ 				class="form-control form-control-sm" style="width:250px;margin-left:20px"><br> 
  				
- 				&nbsp; Bill Total : 
+ 				&nbsp;&nbsp;&nbsp; Bill Total * : 
  				<input id="bill_Total" name="bill_Total" type="text" placeholder="Enter Total Price"
- 				class="form-control form-control-sm" style="width:200px;margin-left:20px"><br>
+ 				class="form-control form-control-sm" style="width:250px;margin-left:20px"><br>
  				
  				<input id="btnSave" name="btnSave" type="button" value="Save" 
- 				class="btn btn-primary" style="margin-left:150px">
+ 				class="btn btn-primary" style="margin-left:140px;background-color:black; height:35px; width:80px">
  				<input type="hidden" id="hidBillIDSave" 
 				name="hidBillIDSave" value="">
 				
